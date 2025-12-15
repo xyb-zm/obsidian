@@ -36,3 +36,7 @@ $$
 
 你好
 ![](assets/obsibian测试/file-20251215162946056.png)![](assets/obsibian测试/file-20251215162946055.png)
+
+
+下面是图片
+![](assets/obsibian测试/file-20251215171055770.png)
