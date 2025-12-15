@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"0e92ca104705de71","x":-180,"y":-20,"width":250,"height":60,"type":"text","text":""},
+		{"id":"479521bcf5a61e45","x":-220,"y":-120,"width":620,"height":600,"type":"file","file":"命令行工具相关/OESPLUS真的就是这样玩的吗.md"},
+		{"id":"4c1d6bf1184248a5","x":-45,"y":80,"width":230,"height":163,"type":"file","file":"软路由相关/assets/obsibian测试/file-20251215162946056.png"}
+	],
+	"edges":[]
+}
