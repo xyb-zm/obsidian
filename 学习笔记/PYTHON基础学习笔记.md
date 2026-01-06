@@ -39,4 +39,7 @@ print(a)
 print(a.rstrip())
 
 ```
-6. 
+6. 删除前缀，如网址的前缀”https://“,如下例子
+```python
+url = 'https://www.baidu.com'
+```
