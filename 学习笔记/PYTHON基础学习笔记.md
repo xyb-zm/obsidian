@@ -103,5 +103,20 @@ print(message)
 ```
 2. 修改列表元素
 ```python
+names = ['张三','李四','王五','赵六','隔壁老王','楼上赵叔','zhangshan','lishi','jeak']
+print(names)
 
+#修改列表0号元素的值为'张三叔'
+names[0] = '张三叔'
+print(names)
+```
+3. 在列表中添加元素
+```python
+#append()方法动态创建列表易如反掌，可以先创建一个空列表，在使用一系列函数调用append()添加元素。如下例子
+name = []
+name.append('张三')
+name.append('李四')
+name.append('jack')
+name.append('xybzm')
+print(name)
 ```
