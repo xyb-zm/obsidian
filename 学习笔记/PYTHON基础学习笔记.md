@@ -132,5 +132,17 @@ print(names)
 ```
 5. 从列表中删除元素del
 ```python
+names = ['张三','李四','王五','赵六','隔壁老王','楼上赵叔','zhangshan','lishi','jeak']
+print(names)
 
+#删除列表索引0的元素
+del names[0]
+
+#删除列表最后一个元素
+del names[-1]
+
+#删除列表第二个元素值
+del names[1]
+
+print(names)
 ```
