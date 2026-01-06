@@ -82,8 +82,26 @@ MAX_CONNECTION = 5000
 ```这为多行注释```
 # 列表
 在python中，用方括号[]表示列表，用逗号分割其中的元素。下面为实例
+1. 访问列表元素
 ```python
-names = ['张三','李四','王五','赵六','隔壁老王','楼上赵叔']
+names = ['张三','李四','王五','赵六','隔壁老王','楼上赵叔','zhangshan','lishi','jeak']
 print(names)
+#下面的代码从列表中提取第一个人名,使用列表的索引进行提取，索引是从0开始，不是从1.
+print(names[0])
+
+#也可以使用title()方法让元素输出为首字母大写的形式，这个对英文有效。
+print(names[6].title())
+print(names[7].title())
+print(names[8].title()) 
+
+#访问列表最后一个元素也可以这样,使用-1
+print(names[-1])
+
+#下面尝试从列表中提取一个元素，并使用这个元素值创建一条消息，然后打印出来
+message = f"My name is {names[0]}."
+print(message)
+```
+2. 修改列表元素
+```python
 
 ```
