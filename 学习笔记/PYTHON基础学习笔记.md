@@ -19,3 +19,12 @@ full_name = f"{firt_name} {last_name}"
 
 print(full_name)
 ```
+1. 可以使用title()方法来将姓名设置为合适的格式，首字母大写。如下
+```
+print(f"Hello,{full_name.title()}")
+```
+2. 还可以使用f字符串来创建消息，在把整条消息赋值给变量。
+```
+message = f"hello, {full_name.title()}"
+print(message)
+```
