@@ -60,7 +60,7 @@ nessage_two = 'This's a new product.'
 
 print(message_two)
 ```
-8. 数中的下划线,
+8. 数中的下划线
 这种写法可以便于阅读，在python打印这个变量时不会有下划线的。
 ```python
 age = 14_000_000_000
