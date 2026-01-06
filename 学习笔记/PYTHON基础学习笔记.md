@@ -10,7 +10,7 @@
 就是一系列字符。在python中，用引号引起的都是字符串，其中的引号可以是单引号，也可以是双引号。
 ## 在字符串中使用变量
 要在字符串中插入变量的值，可先在左引号前面加上f ,再将要插入的变量放在花括号内。这样，python在显示字符串时，将把每个变量都替换为其值。
-```
+```python
 firt_name = "zhangshan"
 
 last_name = "lishi"
@@ -20,11 +20,11 @@ full_name = f"{firt_name} {last_name}"
 print(full_name)
 ```
 1. 可以使用title()方法来将姓名设置为合适的格式，首字母大写。如下
-```
+```python
 print(f"Hello,{full_name.title()}")
 ```
 2. 还可以使用f字符串来创建消息，在把整条消息赋值给变量。
-```
+```python
 message = f"hello, {full_name.title()}"
 print(message)
 ```
@@ -32,3 +32,10 @@ print(message)
 ![](assets/PYTHON基础学习笔记/file-20260106161647889.png)
 4. \n换行符的使用
 ![](assets/PYTHON基础学习笔记/file-20260106161906646.png)
+5. 删除空白rstrip()方法，例如下
+```python
+a = 'phthon '
+print(a)
+print(a.rstrip())
+
+```
