@@ -217,7 +217,25 @@ print(f"{caidan_del}客人不要了，厨房不要做了")
 # 列表管理
 1. 使用sort()方法对列表进行永久排序
 ```python
-
+cars = ['bmw','audi','toyota','subaru','byd','changcheng']
+print(cars)
+cars.sort()
+print(cars)
 ```
 
+>注意：sort()方法能永久的修改列表元素的排列顺序。
 
+2. 还可以按字母顺序相反的顺序排列列表元素，只需向sort()方法传递参数reverse=True即可，如下实例
+```python
+cars = ['bmw','audi','toyota','subaru','byd','changcheng']
+print(cars)
+cars.sort(reverse=True)
+print(cars)
+```
+3. 使用sorted()方法对列表进行临时排序
+```python
+cars = ['bmw','audi','toyota','subaru','byd','changcheng']
+print(cars)
+cars.sorted()
+print(cars)
+```
