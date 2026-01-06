@@ -60,3 +60,28 @@ nessage_two = 'This's a new product.'
 
 print(message_two)
 ```
+8. 数中的下划线,
+这种写法可以便于阅读，在python打印这个变量时不会有下划线的。
+```python
+age = 14_000_000_000
+print(age)
+```
+9. 同时给多给变量赋值。
+```python
+x,y,z = 0,0,0
+print(x)
+print(y)
+print(z)
+```
+9. 常量
+常量（constant)在程序的整个生命周期内部都保持不变的变量。python没有内置的常量类型，但python程序员会使用大写字母（单词用下划线分割）来指出应将么个变量视为常量，其值应始终不变
+MAX_CONNECTION = 5000
+10. 注释#为单行注释，```为多行段落注释```
+```python
+#这是单行注释
+```这为多行注释```
+# 列表
+在python中，用方括号[]表示列表，用逗号分割其中的元素。下面为实例
+```python
+
+```
