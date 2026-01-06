@@ -9,3 +9,12 @@
 ## 字符串
 就是一系列字符。在python中，用引号引起的都是字符串，其中的引号可以是单引号，也可以是双引号。
 ## 在字符串中使用变量
+```
+firt_name = "zhangshan"
+
+last_name = "lishi"
+
+full_name = f"{firt_name} {last_name}"
+
+print(full_name)
+```
