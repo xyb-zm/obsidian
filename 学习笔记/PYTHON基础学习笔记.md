@@ -120,3 +120,7 @@ name.append('jack')
 name.append('xybzm')
 print(name)
 ```
+4. 在列表中插入元素
+```python
+
+```
