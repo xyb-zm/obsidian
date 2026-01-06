@@ -120,7 +120,17 @@ name.append('jack')
 name.append('xybzm')
 print(name)
 ```
-4. 在列表中插入元素
+4. 在列表中插入元素insert()方法
+```python
+names = ['张三','李四','王五','赵六','隔壁老王','楼上赵叔','zhangshan','lishi','jeak']
+print(names)
+#在列表中插入元素用insert()方法可以在列表中任意位置添加新元素。如下例子就是在列表索引0的位置添加一个元素。
+
+#这种操作将列表中所有元素都右移一个位置。
+names.insert(0,'五姨')
+print(names)
+```
+5. 从列表中删除元素del
 ```python
 
 ```
