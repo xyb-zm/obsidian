@@ -39,3 +39,4 @@ print(a)
 print(a.rstrip())
 
 ```
+6. 
