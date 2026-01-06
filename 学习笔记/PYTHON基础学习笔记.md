@@ -250,3 +250,10 @@ cars.reverse()
 print(cars)
 ```
 5. 确定列表的长度
+```python
+cars = ['bmw','audi','toyota','subaru','byd','changcheng']
+
+print(cars)
+
+print(len(cars))
+```
