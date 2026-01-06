@@ -244,6 +244,17 @@ print(cars)
 print(f"使用临时排序对列表进行一次排序如下\n{sorted(cars)}")
 print(f"打印一下原始列表元素如下\n{cars}")
 ```
+
+```python
+str = ['b','d','a','f','e','h','l','n','o','p','z','g','k','m','r','j','s','w','x','y','c']
+
+print(sorted(str))
+
+#临时对列表进行安字母顺序进行倒排，这里要传入revers=True，这个参数。
+print(sorted(str,reverse=True))
+
+print(str)
+```
 4. 反向打印列表reverse()方法
 >注意：reverse()方法不是安字母顺序相反的顺序排列列表元素，只是反转列表元素的排列顺序。
 reverse()方法会永久地修改列表元素的排列顺序，但可以随时复原到原来的排列顺序，只需对列表再次调用reverse()即可。
