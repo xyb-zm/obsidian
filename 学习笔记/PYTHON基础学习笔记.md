@@ -47,3 +47,16 @@ print(new_url)
 ```
 7. 如何在使用字符串时避免语法错误
 语法错误是一种你会时不时遇到的错误。当程序包含非法的python代码时，就会导致语法错误。例如，在用单引号引起来的字符串中包含撇号' ,就将导致错误。这是因为这会导致python将第一个单引号和撇号之间的内容视为一个字符串，进而将余下的文本视为python代码，从而引发错误。
+```python
+#在双引号里使用撇号，python不会报错，可以正常使用
+
+message = "This's a new product."
+
+print(message)
+
+#在单引号里使用撇号，python报错，python无法正确的确定字符串的结束位置。
+
+nessage_two = 'This's a new product.'
+
+print(message_two)
+```
