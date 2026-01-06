@@ -257,3 +257,4 @@ print(cars)
 
 print(len(cars))
 ```
+6. 
