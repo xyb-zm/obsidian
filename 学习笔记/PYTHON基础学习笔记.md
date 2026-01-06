@@ -236,6 +236,7 @@ print(cars)
 ```python
 cars = ['bmw','audi','toyota','subaru','byd','changcheng']
 print(cars)
-cars.sorted()
-print(cars)
+
+print(f"使用临时排序对列表进行一次排序如下\n{sorted(cars)}")
+print(f"打印一下原始列表元素如下\n{cars}")
 ```
