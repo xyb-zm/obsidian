@@ -69,3 +69,19 @@ Fixes #123
 ## 测试
 - [x] 通过现有测试
 - [x] 添加新测试
+- [ ] 多看看发的
+
+`console.log()` 中的 `log` 部分
+
+# 引用 Issues 和 Pull Requests
+- Issue引用: #123
+- 跨仓库引用: user/repo#456
+- Commit SHA引用: bd639d6
+- 完整Commit引用: user/repo@bd639d6
+
+# 提及用户和团队
+@username
+@org/team-name
+
+# 引用时间戳
+- 相对时间: <!-- 2023-01-01T00:00:00Z -->
