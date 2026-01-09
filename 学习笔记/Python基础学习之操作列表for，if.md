@@ -172,5 +172,19 @@ print(f"这是我喜欢的菜单:{my_caidan}")
 ```
 - 下面这种复制列表是错误的。
 ```python
+my_caidan = ['红烧肉','小鸡炖蘑菇','素炒牛肉','辣根鱼皮','炖排骨','红烧牛楠','土豆丝','拍黄瓜','遛虾仁']
 
+friend_caidan = my_caidan
+
+#朋友的菜单里添加一个"苹果汁",结果，我的菜单里也多出来一个苹果汁
+#删除一道菜土豆丝，结果我的菜单里也没有土豆丝了，说明这两个列表就是指向一个列表的
+friend_caidan.append('苹果汁')
+friend_caidan.remove("土豆丝")
+print(friend_caidan)
+
+  
+
+#我的菜单里添加了一瓶"矿泉水"
+my_caidan.append('矿泉水')
+print(my_caidan)
 ```
