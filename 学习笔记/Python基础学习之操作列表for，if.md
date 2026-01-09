@@ -66,5 +66,5 @@ number = []
 for value in range(1,11):
     number.append(value**2)
 print(number)
-
+这样写得到的结果和上面一样的，代码更简洁
 ```
