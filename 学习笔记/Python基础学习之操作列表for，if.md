@@ -94,4 +94,25 @@ number = [value for value in range(1,21)]
 print(number)
 
 
+#下面的示例得到1~1百万的数值，并用for循环打印出来
+number = [value for value in range(1,1000001)]
+for value in number:
+    #读取列表中所有数值,并打印出来
+    print(value)
+
+#求number列表中的最大数值
+print(f"列表中最小的数值是:{min(number)}")
+
+#求number列表中最小数值
+print(f"列表中最大的数值是:{max(number)}")
+```
+## 使用列表的一部分
+1. 切片
+- 要创建切片，可以指定要使用的第一个元素和最后一个元素的索引。与range()函数一样，python在到达指定的第二个索引之前的元素时停止。要输出列表中的前三个元素，需要指定索引0和3，这样返回索引分别为0，1 和 2 的元素。
+- 下面的示例返回列表中前三个元素(前三道菜)
+```python
+
+```
+```python
+
 ```
