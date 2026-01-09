@@ -61,3 +61,10 @@ print(number)
 #输出结果是：[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 ```
 - 为了让代码简洁也可以用临时变量square,而是直接将计算得到的每个值追加刀列表末尾
+```python
+number = []
+for value in range(1,11):
+    number.append(value**2)
+print(number)
+
+```
