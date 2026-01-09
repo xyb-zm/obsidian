@@ -40,4 +40,5 @@ for value in range(1,5):
 number = list(range(1,6))
 print(number)
 ```
-1. 使用range()函数时，还可以使用步长。为此，可以给这个函数指定第三个参数，
+1. 使用range()函数时，还可以使用步长。为此，可以给这个函数指定第三个参数，python将根据这个步长来生成数。
+	 下面的代码打印1~
