@@ -170,3 +170,7 @@ print(f"这是我朋友喜欢的菜单:{friend_caidan}")
 my_caidan.append('韭菜炒鸡蛋')
 print(f"这是我喜欢的菜单:{my_caidan}")
 ```
+- 下面这种复制列表是错误的。
+```python
+
+```
