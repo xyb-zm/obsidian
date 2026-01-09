@@ -170,21 +170,22 @@ print(f"这是我朋友喜欢的菜单:{friend_caidan}")
 my_caidan.append('韭菜炒鸡蛋')
 print(f"这是我喜欢的菜单:{my_caidan}")
 ```
-- 下面这种复制列表是错误的。
+## 下面这种复制列表是错误的
+这里将my_caidan 赋值给friend_caidan，而不是将my_caidan的副本赋值给friend_caidan。这种语法实际上是让python将新变量friend_caidan关联到my_caidan相关联的列表，因此这两个变量指向同一个列表。有鉴于此，当我们将“苹果汁”添加到friend_caidan里，在我的my_caidan里也看到了“苹果汁”，同样，
 ```python
 my_caidan = ['红烧肉','小鸡炖蘑菇','素炒牛肉','辣根鱼皮','炖排骨','红烧牛楠','土豆丝','拍黄瓜','遛虾仁']
 
+#这样写就不是复制列表，而是将my_caidan 赋值给friend_caidan
 friend_caidan = my_caidan
 
 #朋友的菜单里添加一个"苹果汁",结果，我的菜单里也多出来一个苹果汁
 #删除一道菜土豆丝，结果我的菜单里也没有土豆丝了，说明这两个列表就是指向一个列表的
-friend_caidan.append('苹果汁')
 friend_caidan.remove("土豆丝")
-print(friend_caidan)
-
-  
+friend_caidan.append('苹果汁')
 
 #我的菜单里添加了一瓶"矿泉水"
 my_caidan.append('矿泉水')
+
+print(f"")
 print(my_caidan)
 ```
