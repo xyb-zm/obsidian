@@ -25,3 +25,8 @@ for cd in caidan
     print(f"这道菜是:{cd}")
 ```
 - 如果不小心遗漏了冒号，将导致语法错误，因为python不知道你想干什么。
+## 使用range()函数
+python函数range()让你能够轻松的生成一系列的数。例如，可以像下面这样使用range()函数来打印一系列的数：
+```python
+
+```
