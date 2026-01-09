@@ -52,5 +52,12 @@ print(number)
 ```
 2. 使用range()函数几乎可以创建任意数值集合。例如，如何创建一个列表，其中包含10整数(1-10)的平方呢？在python中，用两个星号（* * ）表示乘方运算。下面的代码演示如何将前10个整数的平方加入一个列表：
 ```python
+number = []
+for value in range(1,11):
+    value = value ** 2
+    number.append(value)
+print(number)
 
+#输出结果是：[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
 ```
+- 为了让代码简洁也可以用临时变量value,er
