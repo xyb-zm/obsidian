@@ -40,4 +40,4 @@ for value in range(1,5):
 number = list(range(1,6))
 print(number)
 ```
-使用range()函数时，还可以使用
+1. 使用range()函数时，还可以使用步长。为此，可以给这个函数指定第三个参数，
