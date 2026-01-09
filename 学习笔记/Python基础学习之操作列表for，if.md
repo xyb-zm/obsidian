@@ -37,5 +37,7 @@ for value in range(1,5):
 - 使用range()函数时，也可以只指定一个参数，这样它将从0开始，例如，range(6)返回数0-5
 ## 使用range()创建数值列表可以使用list()方法
 ```python
-
+number = list(range(1,6))
+print(number)
 ```
+使用range()函数时，还可以使用
