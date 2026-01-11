@@ -453,5 +453,20 @@ print(f"你的门票价格为:{price}元")
 ## 使用多个elif语句代码块
 - 还可以根据需要使用任意数量的elif代码块。假设前述游乐场给老年人打折，可在添加一个条件测试，判断顾客是否符合打折条件。下面假设年满65岁的老人可半价（即20元）购买门票：
 ```python
+age = 65
+if age < 4:
+    price = 0
+elif age >= 65:
+    price = 20
+elif age > 18 and age < 65:
+    price = 40
+else:
+    price = 25
 
+print(f"你的门票价格为:{price}元")
+
+#执行结果是：20元门票
 ```
+## 省略else代码块
+python并不要求if-elif结果后面必须有else代码块。在一些情况下，else代码块很有用：而在其他情况下，使用一条elif语句来处理特定的情形更清晰：
+
