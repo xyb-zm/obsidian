@@ -245,6 +245,28 @@ for value in ju_xing:
 - 修改后矩形的尺寸:200
 
 # if 语句
+如下面的代码遍历一个厨具（dish）的列表,并以首字母大写的方式打印“bowl"碗的名字，其他一的厨具以首字母大写的方式打印出来。
+```python
+dish = ['knife','spoon','fork','plate','bowl','cup','pot','pan','cutting board','spatula','kattle']
 
+for dish in dish:
+    if dish == 'bowl':
+        print(dish.upper())
+    else:
+        print(dish.title())
+        
+#结果如下：
 
+Fork
+Plate
+BOWL
+Cup
+Pot
+Pan
+Cutting Board
+Spatula
+Kattle
+
+```
+这个示例中循环首先检查当前厨具名称是否为'dish'。如果是，就以全部大写的方式打印出来，
    
