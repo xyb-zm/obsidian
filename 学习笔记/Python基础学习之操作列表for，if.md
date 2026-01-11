@@ -317,3 +317,4 @@ dish = 'knife'
 dish.lower() == 'knife'
 True
 ```
+无论值“knife"大小写如何，
