@@ -318,7 +318,7 @@ dish.lower() == 'knife'
 True
 ```
 无论值“knife"大小写如何，上述条件测试将返回True，应为它不区分大小写。lower()方法不会修改存储在变量dish中的值，因此进行这样的比较不会影响原来的变量：
-![](assets/Python基础学习之操作列表for，if/file-20260111192716927.png)
+- ![](assets/Python基础学习之操作列表for，if/file-20260111192716927.png)
 
 首先，将字母大写的字符串‘PLATE'的值赋给变量dish。然后，获取变量dish的值并将其转换为全小写，在将结果与字符串“plate"进行比较。这两个字符串相同，因此python返回True。如上所示，lower()方法并没有影响存储在变量dish里的值。
 
