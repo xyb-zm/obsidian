@@ -247,6 +247,7 @@ for value in ju_xing:
 # if 语句
 如下面的代码遍历一个厨具（dish）的列表,并以首字母大写的方式打印“bowl"碗的名字，其他一的厨具以首字母大写的方式打印出来。
 ```python
+#示例1
 dish = ['knife','spoon','fork','plate','bowl','cup','pot','pan','cutting board','spatula','kattle']
 
 for dish in dish:
@@ -254,7 +255,17 @@ for dish in dish:
         print(dish.upper())
     else:
         print(dish.title())
-        
+
+#示例2
+dish = ['knife','spoon','fork','plate','bowl','cup','pot','pan','cutting board','spatula','kattle']
+
+for dish in dish:
+    if dish != 'bowl':
+        print(dish.title())
+    else:
+        print(dish.upper())
+  
+#这两个示例执行的结果是一样的，但是，代码的逻辑不一样的。            
 #结果如下：
 
 Fork
@@ -269,5 +280,13 @@ Kattle
 
 ```
 这个示例中循环首先检查当前厨具名称是否为'bowl'。如果是，就以全部大写的方式打印出来，否则以首字母大写的方式打印出来。
+
+## 条件测试
+
+>每条if语句的核心都是一个值为True的表达式，这种表达式称为条件测试。Python根据条件测试的值是True还是False来决定是否执行if语句中的代码。如果条件测试的值为True，Python就执行紧跟在if语句后面的代码；如果为false，python就忽略这些代码。
+
+## 检查是否相等
+大多数条件测将一个变量的当前值与特定的值进行比较。最简单的条件测试检查变量的值是否与特定值相等：
+
 
    
