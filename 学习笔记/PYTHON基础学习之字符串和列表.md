@@ -29,9 +29,9 @@ message = f"hello, {full_name.title()}"
 print(message)
 ```
 3. 使用制表符和换行符来添加空白\t
-![](assets/1PYTHON基础学习之字符串和列表/file-20260112013226917.png)
+![](assets/PYTHON基础学习之字符串和列表/file-20260112013355680%201.png)
 4. 换行符的使用\t
-![](assets/1PYTHON基础学习之字符串和列表/file-20260112013226923.png)
+![](assets/PYTHON基础学习之字符串和列表/file-20260112013355679.png)
 5. 删除空白,删除右侧空白rstrip()方法，删除左侧空白行lstrip()，删除两端空白行strip()，例如下
 ```python
 a = 'phthon '
