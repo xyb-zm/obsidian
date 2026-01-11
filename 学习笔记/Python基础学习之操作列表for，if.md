@@ -317,4 +317,4 @@ dish = 'knife'
 dish.lower() == 'knife'
 True
 ```
-无论值“knife"大小写如何，
+无论值“knife"大小写如何，上述条件测试将返回True，应为它不区分大小写。lower()方法
