@@ -299,6 +299,7 @@ True
 ```python
 dish = 'spoon'
 dish == 'bowl'
+False
 ```
 
-一个等号是陈述，于是第一行代码可解读为：将
+一个等号是陈述，于是第一行代码可解读为：将变量dish的值设置为‘
