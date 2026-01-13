@@ -277,6 +277,7 @@ for name in names:
 - 如果显式地使用***key()能让代码更容易理解，就可以选择这样做，但如果你愿意，也可以省略***
 - 在这种循环中，可使用当前的健来访问与之关联的值。下面来打印条消息，指出喜欢的编程语言。我们像前面一样遍历字典中的名字，但在名字为指定朋友的名字时，打印一条消息，指出其喜欢的语言：
 ```python
+
 names = {
 
     '张三':'c',
@@ -293,13 +294,19 @@ names = {
 
 friends = ['王五','徐墨','张恒']
 
+  
+
 for name in names.keys():
 
-   if name in friends:
+    print(f"hi,{name}")
 
-    languae = names[name].title()
+    if name in friends:
 
-    print(f"你好,{name},你喜欢的编程语言是:{languae}!")
+        languae = names[name].title()
+
+  
+
+        print(f"你好,{name},你喜欢的编程语言是:{languae}!")
     
 ```
 
