@@ -27,6 +27,18 @@ print(dish['name'])
 
 ```
 - 这将返回字典dish中与健‘name’相关联的值“knife”
+
+下面是一个学生的信息，读取存储在字典里的信息。
 ```python
+names = {'name':'张三','age':'22','clase':'五年级3班','dizhi':'富贵路38号'}
+print(names['name'])
+print(names['age'])
+print(names['clase'])
+print(names['dizhi'])
 
 ```
+### 添加健值对
+>字典是一种动态结构，可随时在其中添加键值对。要添加键值对，可依次指定字典名，用方括号括起来的健和与该健关联的值。
+>下面我们在学生的字典里添加两项信息：喜好、电话号码。如下示例
+
+
