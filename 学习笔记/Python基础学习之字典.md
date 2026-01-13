@@ -456,5 +456,21 @@ print(f"这个列表有:{len(aliens)}元素")
 
 ```
 - 在这个示例中，首先创建了一个空列表，用于存储接下来将创建的所有外星人。range()函数返回一个数字序列，告诉python重复这个循环多少次。每次执行这个循环时，都创建一个外星人，并将其追加到列表aliens末尾处，使用一个切片来打印前5个外星人。最后打印列表的长度，以证明确实创建了30个外星人。
-- 
+```python
+aliens = []
+for alien_number in range(30):
+    new_alien = {'color':'green','points':5,'speed':'slow'}
+    aliens.append(new_alien)
+for key in aliens[:5]:
+    #创建一个切片,打印前5个外星人
+    print(key)
+    
+print("\n")
+for key in aliens[-3:]:
+    #创建一个切片,显示后面3个外星人
+    print(key)
+
+print(f"这个列表有:{len(aliens)}元素")
+
+```
 
