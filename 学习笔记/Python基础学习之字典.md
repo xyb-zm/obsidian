@@ -71,5 +71,18 @@ print(names)
 - ![](assets/Python基础学习之字典/file-20260113172646842.png)
 - 下面来看一个更有趣的例子：对一个能够以不同速度移动的外星人进行位置的跟踪。我们可以判断外星人的当前速度，并据此确定该外星人应该向右移动多远：
 ```python
+alien_0 = {'x':0,'y':25,'speed':'medium'}
+if alien_0['speed'] == 'slow':
+    #默认为漫速度,移动为1
+    x_value = 1
+elif alien_0['speed'] == 'medium':
+    #这是为外星人的中等速度
+    x_value = 2
+else:
+    #这时为外星人的最快速度
+    x_value = 3
+alien_0['x'] = alien_0['x'] + x_value
+
+print(f"新的X轴移动速度是{alien_0['x']}")
 
 ```
