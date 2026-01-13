@@ -411,5 +411,19 @@ print(language)
 输出的结果如下
 - ![](assets/Python基础学习之字典/file-20260113224826062.png)
 - 没有重复的编程语言。集合只输出独一无二的值列表。
-- 
+### 集合 同样也可以像下面这样写
+```python
+language = {
+    'c',
+    'rust',
+    'python',
+    'java',
+    'php',
+    'java',
+    'rust',
+    'php',
+}
+print(language)
+```
+
 
