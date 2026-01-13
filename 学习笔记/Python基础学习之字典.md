@@ -86,3 +86,4 @@ alien_0['x'] = alien_0['x'] + x_value
 print(f"新的X轴移动速度是{alien_0['x']}")
 
 ```
+- 代码讲解
