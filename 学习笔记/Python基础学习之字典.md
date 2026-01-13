@@ -431,5 +431,17 @@ print(language)
 ## 字典列表
 >字典alien_0 包含一个外星人的各个信息，但是无法存储第二个外星人的信息，更别说屏幕上全部是外星人的信息了。如何管理成群结队的外星人呢？一种办法是创建一个外星人列表，其实每个外星人都是一个字典，包含有关该外星人的各种信息。例如，下面的代码创建一个包含三个外星人的列表：
 
+```python
+alien_0 = {'color':'green','points':5}
+alien_1 = {'color':'red','points':6}
+alien_2 = {'color':'blue','points':8}
 
+aliens = [alien_0,alien_1,alien_2]
+for alien in aliens:
+    print(alien)
+    
+```
+- 首先创建三个字典，其中每个字典都表示一个外星人。然后在将这些字典都存储到一个名为aliens的列表中。最后，遍历这个列表，将每个外星人都打印出来：
+- ![](assets/Python基础学习之字典/file-20260113232601929.png)
+- 
 
