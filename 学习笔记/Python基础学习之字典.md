@@ -342,5 +342,21 @@ if '徐文' not in names.keys():
 - 遍历字典时将按插入元素的顺序返回其中的元素，但是在一些情况下，你可能要按于此不同的顺序遍历字典。
 - 比如要以字母的顺序返回元素，一种方法是在for循环式对返回的健进行排序。为此可使用sorted()函数临时来获得按照字母的顺序排列的健列表的副本。如下示例
 ```python
+names = {
+    'zhang_dong':25,
+    'wang_wu':22,
+    'ming_dong':33
+    'xu_ming':35,
+    'bai_shan':22,
+    'dong_chang':33,
+    'ping_guang':18,
+    'molik':25,
+    'nomi':25,
+}
 
+for names in sorted(names.keys()):
+    print(names.title())
+    
 ```
+这条for语句类似于其他for语句，但是对names.keys()的结果调用了sorted()函数对其返回的字典健列表进行按字母顺序排序。这让Python获取字典中的所有健，并在遍历前对这个列表进行排序。输出表明按字母顺序显示了所有被调查者的名字：
+- ![](assets/Python基础学习之字典/file-20260113221835131.png)
