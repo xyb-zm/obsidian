@@ -234,4 +234,48 @@ for name,type in names.items():
     print(f"你好{name},你使用的编程语言是{type}")
 ```
 ## 遍历字典中的所有健keys()方法
+```python
+names = {
 
+    '张三':'c',
+
+    '李四':'python',
+
+    '王五':'javascript',
+
+    '赵六':'rust',
+
+    '徐墨':'java',
+
+}
+
+print(names)
+
+for name in names.keys():
+
+    print(f"你好{name}")
+#执行结果如下
+你好张三
+你好李四
+你好王五
+你好赵六
+你好徐墨
+```
+这个for循环让后python提取字典names中的所有健，并依次将它们赋值给变量name，输出列出了每个人的名字
+- 在遍历字典时，会默认遍历所有的健。因此，如果将上述代码中的
+```python
+for name in names.keys()
+
+替换为
+
+for name in names:
+
+
+输出的结果将不会变。
+
+```
+- 如果显式地使用***key()能让代码更容易理解，就可以选择这样做，但如果你愿意，也可以省略***
+-
+- 
+- 
+- 
