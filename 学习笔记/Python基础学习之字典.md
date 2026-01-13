@@ -72,6 +72,7 @@ print(names)
 - 下面来看一个更有趣的例子：对一个能够以不同速度移动的外星人进行位置的跟踪。我们可以判断外星人的当前速度，并据此确定该外星人应该向右移动多远：
 ```python
 alien_0 = {'x':0,'y':25,'speed':'medium'}
+print(f"")
 if alien_0['speed'] == 'slow':
     #默认为漫速度,移动为1
     x_value = 1
