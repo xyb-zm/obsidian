@@ -404,6 +404,12 @@ for names in set(names.values()):
 - 结果是一个没有重复元素的列表，其中列出了被调查者提及的所有语言
 ***注意***：可以使用一对花括号直接创建集合，并在其中用逗号分隔元素：
 ```python
-names = {}
+language = {'c','rust','python','java','php','php','javascript','python','rust','c'}
+
+print(language)
 ```
+输出的结果如下
+- ![](assets/Python基础学习之字典/file-20260113224826062.png)
+- 没有重复的编程语言。集合只输出独一无二的值列表。
+- 
 
