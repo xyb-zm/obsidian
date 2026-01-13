@@ -477,5 +477,20 @@ print(f"这个列表有:{len(aliens)}元素")
 - 这些外星人都具有相同的特征，但在python看来，每个外星人都是独立的，这让我们能够独立地修改每一个外星人。
 - 在什么情况下要处理成群结队的外星人呢？想象一下，随着游戏的进行，有些外星人会变色且加快移动速度。在必要时，可使用for循环和if语句来修改某些外星人的颜色。例如，要将前三个外星人修改为黄色、速度中等且值为10分，可以这样做。
 ```python
+aliens = []
+for alien in range(30):
+    new_alien = {'color':'green','points':5,'speed':'slow'}
+    aliens.append(new_alien)
+    
+for key in aliens[:3]:
+    if key['color'] == 'green':
+        key['color'] = 'yellow'
+        key['points'] = 10
+        key['speed'] = 'medium'
 
+for alien in aliens[:5]:
+#创建一个外星人切片，只显示前5个外星人
+    print(alien)
 ```
+执行结果如下：
+- ![](assets/Python基础学习之字典/file-20260114002603728.png)
