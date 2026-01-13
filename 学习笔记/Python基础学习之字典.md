@@ -58,4 +58,14 @@ print(names)
 ### 从创建一个空字典开始
 >有时候，在空字典里中添加健值对很方便，甚至是必须的。为此，可先使用一对花括号定义一个空字典，在分行添加各个键值对。例如，下面的代码。
 
+```python
+names = {}
+names['xin_ming'] = '王五'
+names['age'] = 22
+names['clase'] = '四年级2班'
+names['di_zi'] = '民主路33号'
 
+print(names)
+```
+执行结果如下：
+- ![](assets/Python基础学习之字典/file-20260113172646842.png)
