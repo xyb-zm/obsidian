@@ -98,8 +98,16 @@ alien_0['speed'] = 'fast'
 ```
 - 这样，再次运行这些代码，if-elif-else语句将把一个更大的值赋给变量x
 ### 删除键值对
+
 >对于字典中不在需要的信息，可使用***del***语句将相应的键值对彻底删除。在使用***del***语句时，必须指定字典名和要删除的健。
 - 例如，下面的代码从字典names中删除健“phone”:
 ```python
+names = {'name':'王五','age':23,'class':'一年级2班','phone':18677778888}
+print(names)
+del names['phone']
+print(names)
 
 ```
+del语句让python将健‘phone’从字典names中删除，同时删除与这个健关联的值。输出表明健“phone”及其值已被从字典中删除，但其键值对未受影响。
+***注意：删除的键值对永远消失了***
+
