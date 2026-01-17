@@ -567,4 +567,28 @@ for name,lg in languages.items():
 ## 在字典中存储字典
 >可以在字典中嵌套字典，但这样可能会让代码很快变得非常复杂。如果有一网站有多个用户，每个用户都有独特的用户名，可以在字典中将用户名作为健，然后将每个用户的信息存储在一个字典中，并将该字典作为与用户名关联的值。在下面的代码中，存储每一个用户的三项信息：名、姓、和居住地址。为了访问这些信息，我们遍历所有的用户名，并访问与每个用户名关联的信息字典：如下示例
 
+```python
+users = {
+    '徐虎':{
+        'first':'徐',
+        'last':'虎',
+        'location':'国服路101号',
+    },
+    '赵六':{
+        'first':'赵',
+        'last':'六',
+        'location':'名族路208号',
+    },
+}
 
+for username,user_info in users.items():
+    print(f"{username}的详细信息如下: ")
+    fuil_name = f"{user_info['first']} {user_info['last']}"
+    location = user_info['location']
+    print(f"\t{fuil_name}\t的详细地址如下:")
+    print(f"\t{location}\n")
+    
+```
+执行结果如下：
+- ![](assets/Python基础学习之字典/file-20260118003229714.png)
+- 请注意，表示每个用户的字典都有相同的结构，虽然python并没有这样的要求，但这使的嵌套的字典处理起来更容易。尚若表示每个用户的字典都包含不同的健，for循环内部的代码将更复杂。
