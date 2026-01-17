@@ -494,3 +494,28 @@ for alien in aliens[:5]:
 ```
 执行结果如下：
 - ![](assets/Python基础学习之字典/file-20260114002603728.png)
+- 可以进一步扩展这个循环，在其中添加一个elif代码块，将黄色的外星人改为移动速度更快且值15分的外星人，如下所示：
+```python
+aliens = []
+for alien in range(30):
+    new_alien = {'color':'green','points':5,'speed':'slow'}
+    aliens.append(new_alien)
+
+for keys in aliens[:]:
+    if keys['color'] == 'green':
+        keys['color'] = 'yellow'
+        keys['points'] = 8
+        keys['speed'] = 'medium'
+    elif keys['color'] == 'yellow':
+        keys['color'] = 'red'
+        keys['points'] = 10
+        keys['speed'] = 'fast'
+
+print(aliens[0:5])
+```
+
+## 在字典中存储列表
+>有时候，需要将列表存储在字典中，而不是将字典存储在列表中。列如，如何描述顾客点的手抓饼？如何使用列表，只能存储要添加的手抓饼配料：但是如果用字典，其中的配料列表就只是用来描述手抓饼的一个方面。
+>	下面的示例中，存储了手抓饼两方面的信息：外皮内型和配料列表。配料列表是一个与健“topping”关联的值。要访问该列表，我们使用字典名和健“topping”，就像访问字典中的其他值一样。这将返回一个配料表，而不是单个值：
+
+
