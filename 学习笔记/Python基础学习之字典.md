@@ -533,4 +533,17 @@ for topping in shou_zhua_bing['topping']:
 - 下面为输出结果
 - ![](assets/Python基础学习之字典/file-20260117233408072.png)
 - 每当需要再字典中接一个健关联多个值时，都可以在字典中嵌套一个列表。在本章前面有关喜欢的编程语言的示例中，如果每个人的回答都存储在一个列表中，被调查的人都可以选择多种喜欢的语言。在这种情况下，当我们遍历字典时，与每个被调查者关联的都是一个语言列表，而不是一种语言。因此，在遍历该字典的for循环中，需要使用一个for循环来遍历与被调查者关联的语言列表：
-- 
+```python
+languages = {
+    '王五':['c','python','javascript'],
+    '张三':['php'],
+    '李四':['python','rust','c#'],
+    '徐五':['python','c++']
+}
+for name,lg in languages.items():
+    print(f"\n{name.title()}\t喜欢的编程语言如下: ")
+    for key in lg:
+        print(f"\t{key}")
+        
+```
+
