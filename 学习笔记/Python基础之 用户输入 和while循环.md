@@ -22,3 +22,4 @@ print(messing)
 - ![](assets/Python基础之%20用户输入%20和while循环/file-20260118010128551.png)
 # 使用 int() 来获取数值输入
 
+在使用input（）函数时，Python会将用户输入解读为字符串。看下面的示例
