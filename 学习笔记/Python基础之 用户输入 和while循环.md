@@ -78,3 +78,17 @@ while mesge != 'quit':
     print(mesge)
     
 ```
+这个程序很好，唯一美中不足的地方是，他将单词quit也作为一条消息打印出来了，为了解决这个为题，我们可以用一个if测试来解决这个问题
+```python
+message = "你可以输入任意的信息,我都将给你打印在屏幕上.退出程序请输入quit"
+message += "请输入你要打印的信息: "
+mesge = ""
+while mesge != 'quit':
+    mesge = input(message)
+    if mesge != "quit":
+        print(mesge)
+        
+```
+## 使用标志
+在上一个示例中，我们让程序在满足指定的条件时执行特定的任务。但在更复杂的程序中，有很多不同的条件会导致程序停止运行。在这种情况下，改怎么办呢？
+
