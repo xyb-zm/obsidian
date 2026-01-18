@@ -68,3 +68,13 @@ while number <= 5:
 ![](assets/Python基础之%20用户输入%20和while循环/file-20260118232154248.png)
 ## 让用户选择何时退出
 可以使用while循环让程序在用户愿意时不断地运行，如下的程序所示，我们在其中定义一个退出值，只有用户输入的不是这个值，程序将一直运行：
+```python
+message = "你可以输入任意的信息,我都将给你打印在屏幕上.退出程序请输入quit"
+message += "请输入你要打印的信息: "
+
+mesge = ""
+while mesge != 'quit':
+    mesge = input(message)
+    print(mesge)
+    
+```
