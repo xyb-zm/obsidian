@@ -199,4 +199,24 @@ print(f"删除特定元素'cat'后的列表如下:\n{dong_wu}")
 首先创建一个列表，其中包含多个'cat'元素，打印dong_wu这个列表，python进入while循环，因为他发现‘cat’在列表中至少出现了一次。进入循环后，python删除第一个‘cat’并返回while代码行，然后发现‘cat’还在列表中，因此再次进行循环。它不断删除'cat'，直到在列表中在也没有'cat'元素为止。然后退出循环并打印列表。
 ## 使用用户输入填充字典
 可以使用while循环提示用户输入任意的信息。下面创建一个调查程序，其中的循环在每次执行时都提示输入调查者的名字和回答。我们将收集到的数据存储在一个字典中，以便将回答者与调查者关联起来。
+```python
+message = "这是一个调查程序,请准确的回答我们的问题"
+resquses = {}
+active = True
+while active:
+    name = input("请输入你的名字: ")
+    age = input("今年多大了: ")
+    
+    #将用户输入的信息写入字典
+    resquses[name] = age
 
+    #询问是否还有其他调查者
+    repeat = input("如果还有其他调查者请输入yes/no: ")
+    if repeat == 'no':
+        active = False
+print(resquses)
+
+```
+代码运行如下：
+- ![](assets/Python基础之%20用户输入%20和while循环/file-20260119233915177.png)
+- 这个程序首先定义一个空字典（message）
