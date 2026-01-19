@@ -137,4 +137,18 @@ while math < 10:
     
 ```
 代码解释：首先将math这个变量设置为0 ，由于他小于10，python进入while循环。进入循环后，以步长为1的方式网上数，因此math为1.接下来，if语句检查math与2的求模运算结果。如果结果为0 （意味着math可被2整除），就执行continue语句，让python忽略余下的代码，返回到循环的开头。如果当前的数不能被2整除，就执行循环中余下的代码，将这个数打印出来。
+### 下面这种写法运行的结果是一样的。如下所示
+```python
+math = 0
+while True:
+    math += 1
+    if math > 10:
+        break
+    else:
+        if math % 2 == 0:
+            continue
+    print(math)
+    
+```
+
 
