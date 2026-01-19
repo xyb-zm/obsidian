@@ -219,4 +219,6 @@ print(resquses)
 ```
 代码运行如下：
 - ![](assets/Python基础之%20用户输入%20和while循环/file-20260119233915177.png)
-- 这个程序首先定义一个空字典（message）
+- 这个程序首先定义一个空字典（resquses）,并设置了一个标识（active）用于指出调查是否继续。只要active 为true，python就运行while循环中的代码。
+- 在这个循环中首先用户输入姓名。然后用户输入年龄。接着将用户输入的信息写入字典（resquses）中，并询问调查是否继续。如果用户输入yes，程序将再次进入while循环；如果用户输入no，标志active将被设置为false，while循环就此结束。最后一个代码块显示调查结果。
+
