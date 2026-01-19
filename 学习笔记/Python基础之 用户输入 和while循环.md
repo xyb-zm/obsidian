@@ -185,6 +185,11 @@ for user in ok_users:
 我们使用remove（）方法来删除列表中的特定值。这之所以可行，是因为要删除的值在列表中只出现一次。如果要删除列表中所有为特定值的元素，改怎么办呢？
 - 假设有一个宠物列表，其中包含多个值为“cat”的元素。要删除所有这些元素，可不断运行一个while循环，直到列表中不再包含值“cat”，示例如下：
 ```python
+dong_wu = ['cat','dog','bird','cat','dog','hat','coat','shirt','hat','cat','dog','cat']
+print(dong_wu)
+while 'cat' in dong_wu:
+    dong_wu.remove('cat')
+print(dong_wu)
 
 ```
-
+首先创建一个列表，其中包含多个'cat'元素，
