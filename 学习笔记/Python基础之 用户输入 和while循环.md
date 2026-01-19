@@ -112,7 +112,19 @@ while active:
 ## 使用 break 退出循环
 如果不管条件测试的结果如何，想立即退出while循环，不在运行循环中的余下的代码，可以使用break语句。break语句用于控制程序流程，可用来哪些代码将执行，那些代码不执行，从而让程序按你的要求执行你要执行的代码。
 ```python
-
+message = "\n你可以输入任意内容,我可以帮你打印在屏幕上,退出程序请输入quit"
+message += "\n请输入你的内容: "
+while True:
+    messg = input(message)
+    if messg == "quit":
+       break
+    else:
+        print(messg)
+        
 ```
 
+以while true打头的循环将不断运行，直到遇到break语句。这个程序中的循环不断地让用户输入他想输入的内容，直到用户输入“quit”为止。在用户输入“quit”后，将执行break语句，导致python退出循环：
+***注意***：在所有python循环中都可以使用break语句。例如，可使用break语句来退出遍历列表或字典的for循环。
+## 在循环中使用 continue
+要返回循环开头，并根据条件测试结果决定是否继续执行循环，可以使用continue语句，它不像break语句那样不在执行余下的代码并退出整个循环。例如，来看一个从0数到10，只打印其中奇数的循环：
 
