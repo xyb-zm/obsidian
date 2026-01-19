@@ -186,10 +186,12 @@ for user in ok_users:
 - 假设有一个宠物列表，其中包含多个值为“cat”的元素。要删除所有这些元素，可不断运行一个while循环，直到列表中不再包含值“cat”，示例如下：
 ```python
 dong_wu = ['cat','dog','bird','cat','dog','hat','coat','shirt','hat','cat','dog','cat']
+
 print(dong_wu)
 while 'cat' in dong_wu:
     dong_wu.remove('cat')
-print(dong_wu)
+    
+print(f"删除特定元素'cat'后的列表如下:\n{dong_wu}")
 
 ```
-首先创建一个列表，其中包含多个'cat'元素，
+首先创建一个列表，其中包含多个'cat'元素，打印dong_wu这个列表，python进入while循环，因为他发现‘cat’在列表中至少出现了一次。进入循环后，python删除第一个‘cat’并
